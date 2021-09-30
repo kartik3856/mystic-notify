@@ -21,8 +21,3 @@ TriggerClientEvent('mystic:notify', source, 'This is a test notification', 'info
 ![Error](https://cdn.izmystic.gay/images/htsq1qad.png)
 ![Success](https://cdn.izmystic.gay/images/y785g5fj.png)
 ![Warn](https://cdn.izmystic.gay/images/cb2ymc5s.png)
-
-
-## Notice
-I did not create these notifications, all credit goes to [QBCore](https://github.com/qbcore-framework)
-I simply made it a standalone resource
