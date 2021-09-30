@@ -1,0 +1,15 @@
+.warn {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 5px solid #f1c136;
+    background-color: rgb(23 23 23 / 80%);
+    color: #fff;  
+}
+
+#warn {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 5px solid #f1c136;
+    background-color: rgb(23 23 23 / 80%);
+    color: #fff;  
+}
