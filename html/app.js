@@ -26,14 +26,6 @@ const app = Vue.createApp({
           color = 'warning';
           icon = 'warning';
           break;
-        case 'police':
-          color = 'primary';
-          icon = 'local_police';
-          break;
-        case 'ambulance':
-          color = 'negative';
-          icon = 'fas fa-ambulance';
-          break;
       }
 
       if (text.length > 100) {
