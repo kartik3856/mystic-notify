@@ -3,7 +3,7 @@
 # How to use
 ## Client Side
 ```lua
-exports.['mystic-notify']:SendAlert('This is a test notification', 'info')
+exports['mystic-notify']:SendAlert('This is a test notification', 'info')
 ```
 
 ## Server Side
