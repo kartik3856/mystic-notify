@@ -2,7 +2,7 @@ function SendAlert(text, textype, length)
     if type(text) == "table" then
         local ttext = text.text or 'Placeholder'
         local caption = text.caption or 'Placeholder'
-        local ttype = textype or 'primary'
+        local ttype = textype or 'info'
         local length = length or 5000
         SendNUIMessage({
             type = ttype,
@@ -11,7 +11,7 @@ function SendAlert(text, textype, length)
             caption = caption
         })
     else
-        local ttype = textype or 'primary'
+        local ttype = textype or 'info'
         local length = length or 5000
         SendNUIMessage({
             type = ttype,
